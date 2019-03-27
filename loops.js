@@ -26,7 +26,7 @@ function doWhileLoop(array) {
 
 	do {
 		console.log('array.length = ' + array.length + ' and i = ' + i);
-    array = arrslice(1)
+    
 		incrementVariable()
 	} while (array.length > 0 && i < 5);
 	return array;
