@@ -26,7 +26,6 @@ function doWhileLoop(array) {
 
 	do {
 		console.log('array.length = ' + array.length + ' and i = ' + i);
-    
 		incrementVariable()
 	} while (i < array);
 	return array;
